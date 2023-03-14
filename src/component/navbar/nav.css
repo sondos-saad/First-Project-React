@@ -1,0 +1,39 @@
+.navWrapper {
+  background-color:black;
+  
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navHeader .logo h1 {
+  color: white;
+}
+
+.navHeader .navList .nav-menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+}
+
+.navHeader .navList .nav-menu .link-item {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  
+  transition: 0.5s;
+}
+.navHeader .navList .nav-menu .link-item:hover {
+  color:  rgb(245, 113, 24);
+}

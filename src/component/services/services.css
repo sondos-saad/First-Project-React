@@ -1,0 +1,73 @@
+.servicesWrapper {
+  padding: 3rem 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.servicesTittle {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.servicesTittle h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.servicesTittle h2::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  width: 70px;
+  left: 33rem;
+  height: 2px;
+  background-color: rgb(245, 113, 24);
+}
+.servicesTittle p {
+  margin-top: 4rem;
+  color: gray;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.box {
+  width: 300px;
+
+  padding: 20px;
+  text-align: center;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+.box svg {
+  color: rgb(245, 113, 24);
+  font-size: 25px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 50%;
+  padding: 15px;
+  transition: 0.5s;
+}
+.box:hover svg {
+  background-color: rgb(245, 113, 24);
+  color: rgb(248, 248, 248);
+}
+.box:hover {
+  transform: translateY(-20px);
+}
+.box h3 {
+  letter-spacing: 1px;
+}
+.box p {
+  letter-spacing: 1px;
+  color: gray;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.serveItems {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}

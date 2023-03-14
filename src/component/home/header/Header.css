@@ -1,0 +1,76 @@
+header {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url(../../../image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.headerOverlay {
+  /* background-color: rgb(110, 58, 152, 0.8); */
+  background-color: rgba(31, 11, 48, 0.8);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 0;
+}
+.headerWrapper {
+  text-align: center;
+  padding: 7rem 0;
+}
+.headerWrapper h1 {
+  color: white;
+  margin: 2rem 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.headerWrapper p {
+  color: white;
+  margin: 2rem 0;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.headerWrapper form {
+  margin: 2rem auto;
+  background-color: white;
+  padding: 5px;
+  width: 40%;
+  max-width: 100%;
+  border-radius: 30px;
+}
+.headerWrapper form input {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  width: 65%;
+  text-align: left;
+  font-size: 16px;
+}
+.headerWrapper form button {
+  background-color: rgb(245, 113, 24);
+  border: 1px solid rgb(245, 113, 24);
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.3s;
+}
+.headerWrapper form button:hover {
+  background-color: rgb(63, 4, 45);
+  color: white;
+  border: 1px solid rgb(63, 4, 45);
+}

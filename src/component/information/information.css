@@ -1,0 +1,56 @@
+.Information{
+    background-color: black;
+    color: white;
+}
+.information-wrapper{
+    padding: 3rem 0;
+    display: flex;
+    
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.list{
+    margin-left: -35px;
+    margin-bottom: 10px;
+}
+.four p{
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-form{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    background-color: rgb(59, 57, 57);
+    border: 1px solid rgb(59, 57, 57);
+    border-radius: 20px;
+    color: white;
+}
+.footer{
+    background-color: rgb(59, 57, 57);
+}
+.footer-wrapper{
+    padding: .5rem 0;
+}
+.footer-wrapper p{
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.footer-wrapper span{
+    color: rgb(245, 113, 24);
+}

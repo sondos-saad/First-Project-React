@@ -1,0 +1,119 @@
+.sectionFeature{
+    background-color: #eee;
+}
+.featureWrapper{
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featureWrapper .featureText{
+    width: 50%;
+    position: relative;
+}
+.featureWrapper .featureText h2{
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.featureWrapper .featureText p{
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: gray;
+}
+.featureWrapper .featureText .featureList{
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: gray;
+    /* list-style-type: '• '; */
+    list-style: none;
+    
+}
+.featureWrapper .featureText .featureList li::before{
+    content: '•';
+    color: rgb(245, 113, 24);
+    margin:0 10px 0 -40px;
+    font-size: 30px;
+}
+.featureWrapper .featureText .btn{
+    background-color: rgb(245, 113, 24);
+  border: 1px solid rgb(245, 113, 24);
+  color: white;
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.3s;
+}
+.featureWrapper .featureText .btn:hover{
+    background-color: rgb(63, 4, 45);
+    color: white;
+    border: 1px solid rgb(63, 4, 45);
+}
+.featureWrapper .featureImage{
+    width: 50%;
+}
+.featureWrapper .featureImage .imgFeature{
+    width: 100%;
+}
+.featureSectionTwo{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url(../../image/img-1-o.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.featureSectionTwo .featureLayout{
+    background-color: rgba(31, 11, 48, 0.8);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 0;
+}
+.SectionTwo{
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+.SectionTwo h2{
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.SectionTwo p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: gray;
+}
+.SectionTwo .btn{
+    background-color: rgb(245, 113, 24);
+  border: 1px solid rgb(245, 113, 24);
+  color: white;
+  border-radius: 20px;
+  width: 20%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.3s;
+}
+.SectionTwo .btn:hover{
+    background-color: rgb(63, 4, 45);
+    color: white;
+    border: 1px solid rgb(63, 4, 45);
+}

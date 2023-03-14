@@ -1,0 +1,96 @@
+.aboutWrapper{
+    padding: 3rem 0;
+}
+.aboutTittle {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+    
+  }
+  .aboutTittle h2 {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .aboutTittle h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    width: 70px;
+    left: 33rem;
+    height: 2px;
+    background-color: rgb(245, 113, 24);
+  }
+  .aboutTittle p {
+    margin-top: 4rem;
+    color: gray;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    gap: 3rem;
+}
+.about-content{
+    width: 30%;
+}
+.about-content h4{
+    font-size: 15px;
+}
+.about-content p{
+    font-size: 14px;
+    color: gray;
+    font-weight: 600;
+}
+.about-form{
+    width: 70%;
+}
+.about-form input{
+    padding: 15px;
+    border: 1px solid gray;
+    outline: none;
+}
+.about-form input[type=text]{
+   margin-left: 10px;
+   width: 41%;
+   border-radius: 20px;
+}
+.about-form input[type=subject]{
+    width: 88%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.about-form textarea{
+    width: 88%;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+}
+.about-form .btn{
+    background-color: rgb(245, 113, 24);
+  border: 1px solid rgb(245, 113, 24);
+  margin-left: 70%;
+  border-radius: 20px;
+  width: 25%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.3s;
+}
+.about-form .btn:hover{
+    background-color: rgb(63, 4, 45);
+    color: white;
+    border: 1px solid rgb(63, 4, 45);
+}
